@@ -1,0 +1,247 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+
+}
+
+.icon-back {
+   font-size: 45px;
+   background: linear-gradient(to right, #ff6600 0%, #ff0000 100%);
+   margin: 65px;
+   margin-left: 30px;
+   cursor: pointer;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+
+.icon-back:hover {
+   background: linear-gradient(to right, #ff9966 0%, #ff6600 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.login-background {
+   background: url(/src/icon/picture-logo/body.jpg)top center /cover no-repeat;
+   height: 100vh;
+   width: 100%;
+
+}
+
+
+.login-container {
+
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 410px;
+   height: 550px;
+   margin: auto;
+   border-radius: 15px;
+   background-color: #fff;
+   box-shadow: 12px 12px 9px #696969;
+
+
+}
+.show-error-{
+   margin-top: -5px;
+   font-size: 12px;
+   color: #000;
+   margin-left: 25px;
+}
+.show-error {
+   margin-top: -5px;
+   font-size: 12px;
+   color: red;
+   margin-left: 25px;
+}
+
+.icon-passworld {
+   position: absolute;
+   margin-top: -22px;
+   margin-left: 3px;
+
+}
+
+.icon-username {
+   position: absolute;
+   margin-top: -50px;
+   margin-left: 10px;
+
+}
+
+
+.login-header {
+   cursor: default;
+   text-align: center;
+   font-size: 60px;
+   font-weight: 800;
+   margin: 40px 170px;
+   color: #000;
+  
+
+}
+
+
+
+.form-control {
+
+
+   width: 80%;
+   outline: none;
+
+
+
+  
+  
+
+}
+.form-controll{
+   position:relative;
+   border: none;
+   outline: none;
+   width: 80%;
+   border-radius: 2px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   -ms-border-radius: 2px;
+   -o-border-radius: 2px;
+   margin: 8px  35px 25px 37px;
+   border-bottom: 1px solid #696969;
+  
+}
+
+
+
+.error-boder {
+   border: none;
+   background: linear-gradient(to right, #ffcccc 1%, #ffcccc 96%);
+   margin: 0 80px 0 40px;
+   padding: 4px;
+}
+
+/* .error {
+    display: none;
+ } */
+.error-title {
+   justify-content: center;
+   /*    / margin: 0  0  100px  100px; / */
+   font-size: 12px;
+   font-weight: 600;
+   color: red;
+}
+
+.icon-times {
+   font-size: 13px;
+   margin-left: 11px;
+   cursor: pointer;
+   color: red;
+   border: none;
+   background: linear-gradient(to right, #ffcccc 1%, #ffcccc 96%);
+   
+
+
+}
+
+
+.login-button {
+   font-weight: 800;
+   font-size: 1 6px;
+   border: none;
+   width: 300px;
+   padding: 9px 15px;
+   border-radius: 40px;
+   margin: 25px 25px 20px 55px;
+   background: linear-gradient(to left, #ffcc99 0%, #ff9999 100%);
+   color: #6600cc;
+   font-size: 16px;
+   cursor: pointer;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   -ms-border-radius: 40px;
+   -o-border-radius: 40px;
+}
+
+.login-button:hover {
+   background: linear-gradient(to left, #99ffcc 0%, #ffcccc 100%);
+   color: #6600cc;
+   box-shadow: 5px 5px 6px #aaa;
+
+}
+
+.login-checkbox {
+   padding: 5px;
+   margin: 5px 2px 5px 15px;
+}
+
+.save-login {
+   cursor: default;
+   color: rosybrown;
+   font-size: 14px;
+   margin-top: 15px;
+
+
+}
+
+.forgot-passworld {
+   font-style: oblique;
+   font-size: 13px;
+   margin: 0 0 0 100px;
+   padding: 0 0 0 40px;
+   text-decoration: none;
+   color: #000;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.forgot-passworld:hover,
+.text-newaccount:hover {
+   color: royalblue;
+}
+
+.text-or {
+   margin-top: 10px;
+   cursor: default;
+   text-align: center;
+   color: #aaa;
+   margin-bottom: 15px;
+}
+
+.login-different {
+   display: flex;
+   font-size: 30px;
+   justify-content: center;
+   cursor: pointer;
+   margin-bottom: 18px;
+
+}
+
+.icon-google {
+   color: #c9090b;
+   margin-right: 17px;
+   text-decoration: none;
+}
+
+.icon-facebook {
+   color: #1e1ef4;
+   text-decoration: none;
+   margin-right: 17px;
+}
+
+.icon-ins {
+   color: #990099;
+   text-decoration: none;
+}
+
+.text-newaccount {
+   text-align: center;
+   text-decoration: none;
+   padding-left: 125px;
+   color: #000;
+
+
+
+}

@@ -1,0 +1,154 @@
+.uer{
+    position: absolute;
+    margin-top: -780px;
+    margin-left: 270px;
+}
+.userTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.userAddButton{
+    margin-left: 980px;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    background-color:teal;
+    font-style: 16px;
+    cursor: pointer;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+.unserContainer{
+    display:  flex;
+    margin-top: 20px;
+}
+.userShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 3px 0px 7px 1px rgba(0,0,0,0.43); 
+    box-shadow: 3px 0px 7px 1px rgba(0,0,0,0.43); 
+}
+.userUpdate{
+    flex: 2;
+    padding: 20px;
+    margin-left: 20px;
+    -webkit-box-shadow: 3px 0px 7px 1px rgba(0,0,0,0.43); 
+    box-shadow: 3px 0px 7px 1px rgba(0,0,0,0.43); 
+}
+.userShowTop{
+    display: flex;
+    align-items: center;
+}
+.userShowImg{
+  
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.userShowTopTitle{
+    margin-left: 20px;
+    display: flex;
+    flex-direction:  column;
+}
+.userShowUsername{
+ font-weight: 600;
+}
+.userShowUserTitle{
+    font-weight: 300;
+
+}
+.userShowBottom{
+    margin-top: 20px;
+}
+.userShowTitle{
+    font-size: 14px;
+    font-weight: 600px;
+    color: rgb(105, 101, 101);
+}
+.userShowInfor{
+    display: flex;
+    align-items:  center;
+    margin: 20px 0px ;
+    color: #444;
+}
+.userShowIcon{
+    font-size: 16px !important;
+}
+.userShowInforTitle{
+    margin-left: 10px;
+}
+.userUpdateImg{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.userUpdateIcon{
+    cursor: pointer;
+}
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.userUpdateTitle{
+    font-size: 24px;
+    font-weight: 700;
+}
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.userUpdateInput{
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.userUpdateItem>label{
+        margin-bottom: 5px;
+        font-size: 14px;
+}
+.userUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.userUpdateButton{
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    background-color: rgb(36, 36, 240);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.userUpdateButton:hover{
+    background-color: rgb(6, 9, 153);
+    color: white;
+}
+.userUpdateUpload{
+    display: flex;
+    align-items: center;
+}

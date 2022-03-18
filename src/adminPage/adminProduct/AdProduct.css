@@ -1,0 +1,41 @@
+.product{
+    position: absolute;
+    margin-top: -780px;
+    margin-left: 270px;
+}
+.ProductListImage{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.ProductListEdit{
+    border: none;
+    padding: 5px 10px;
+    background-color: #3bb066;
+    color: white;
+    cursor: pointer ;
+   
+    margin-right: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.ProductListEditDelete{
+    font-size: 18px;
+    padding: 10px 10px;
+    cursor: pointer ;
+    color: red;
+   
+}
+.ProductListItem{
+    display: flex;
+    align-items: center;
+}

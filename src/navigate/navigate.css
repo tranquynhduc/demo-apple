@@ -1,0 +1,94 @@
+.icon-login-res{
+    text-decoration: none;
+    margin-right: 40px;
+    color: #ddd;
+}
+.icon-login-res:hover{
+    color: #fff;
+}
+.icon-user-nav{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+.icon-shop-nav{
+    margin-right: 30px;
+    color: #fff;
+    font-size: 18px;
+}
+.icon-user-nav:hover ,.icon-shop-nav:hover {
+    font-size: 30px;
+    cursor: pointer;
+}
+.nav-search{
+    outline: none;
+    margin-top: 8px;
+     padding:0px 25px 0 27px; 
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    width: 95px;
+    height: 20px;
+    transition: width 1s, height 2s;
+    -webkit-transition: width 1s, height 2s;
+    -moz-transition: width 1s, height 2s;
+    -ms-transition: width 1s, height 2s;
+    -o-transition: width 1s, height 2s;
+} 
+
+.nav-search:hover{
+    width: 180px;
+    height: 25px;
+}
+
+.nav-item:hover .subnav-ipad  {
+   display: inline-block;
+    justify-content: center;
+   
+}
+
+.subnav-ipad{
+  display: none;
+  position: absolute;
+  margin-top: 5px;
+  background-color: 	#F8F8F8;
+  padding: 10px 0 0px  10px;
+   box-shadow: 0 10px 10px 10px rgba(19, 15, 15, 0.3);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+.search-btn{
+    font-size: 13px;
+    padding:  2px 3px 0 3px;
+    border: none;
+    margin-top: 8px;
+    margin-left: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-family:'Times New Roman', Times, serif;
+}
+.subnav-ipads{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 46px;
+    min-width: 160px;
+    margin-right: 20px; 
+}
+
+.imge-icon{
+
+    width: 50px;
+    height: 45px;
+    margin: 10px 20px 10px 10px ;
+}
